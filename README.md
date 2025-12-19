@@ -1,23 +1,22 @@
 ## Application Screenshots
 
 ### Students Dashboard
-![Students Dashboard](screenshots/students-list.png)
+![Students Dashboard](screenshots/students-list.jpg)
 
 ### Register Page
-![Register Page](screenshots/register-page.png)
+![Register Page](screenshots/register-page.jpg)
 
 ### Login Page
-![Login Page](screenshots/login-page.png)
+![Login Page](screenshots/login-page.jpg)
 
----
 
 ## API Screenshots (Postman)
 
 ### Register API
-![Register API](screenshots/api-register.png)
+![Register API](screenshots/api-register.jpg)
 
 ### Login API
-![Login API](screenshots/api-login.png)
+![Login API](screenshots/api-login.jpg)
 
 ### Add Student API
-![Add Student API](screenshots/api-add-student.png)
+![Add Student API](screenshots/api-add-student.jpg)
