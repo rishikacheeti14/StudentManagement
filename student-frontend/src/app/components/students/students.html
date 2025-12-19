@@ -1,0 +1,19 @@
+<div class="layout">
+  <aside class="sidebar">
+    <a routerLink="/students">All Students</a>
+    <a routerLink="/add-student">Add Student</a>
+    <button (click)="logout()">Logout</button>
+  </aside>
+
+  <main class="content">
+    <div class="grid">
+      <div class="card" *ngFor="let s of students()">
+        <h3>{{ s.name }}</h3>
+        <p>Class: {{ s.class }}</p>
+        <p>Section: {{ s.section }}</p>
+        <button (click)="edit(s)">Edit</button>
+        <button class="danger" (click)="delete(s.id)">Delete</button>
+      </div>
+    </div>
+  </main>
+</div>

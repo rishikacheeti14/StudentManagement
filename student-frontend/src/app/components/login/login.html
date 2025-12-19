@@ -1,0 +1,14 @@
+<div class="auth-card">
+  <h2>Login</h2>
+  <p class="error">{{ error() }}</p>
+
+  <input placeholder="Email"
+    [ngModel]="email()"
+    (ngModelChange)="email.set($event)" />
+
+  <input type="password" placeholder="Password"
+    [ngModel]="password()"
+    (ngModelChange)="password.set($event)" />
+
+  <button (click)="login()">Login</button>
+</div>
